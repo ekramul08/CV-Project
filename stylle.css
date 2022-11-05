@@ -1,0 +1,114 @@
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        body {
+            background-color: #EEE;
+            font-family: 'Oswald', sans-serif;
+            /* #E5F9F5 */
+        }
+        .container{
+            max-width: 1000px;
+            background-color: #E4F9F5;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* Header Start */
+        header{
+
+        }
+        .profile-image{
+            height: 120px;
+            width: 100px;
+            border: 3px solid white;
+            border-radius: 50%;
+            float: left;
+
+        }
+        .header-bio{
+            float: left;
+            padding: 30px;
+        }
+        h1,h2,h3,h4,h5,h6{
+            color: #11999e;
+        }
+        .header-contact{
+            float: right;
+            padding: 30px;
+        }
+        .header-contact a{
+            text-decoration: none;
+            color: teal;
+            font-weight: bold;
+
+        }
+        .header-contact a:hover{
+            text-decoration: underline;
+            color: tomato;
+
+        }
+        /* Header End */
+        .div-clear{
+            clear: both;
+        }
+        hr{
+            border: solid black 3px;
+            border-bottom: none;
+            width: 100%;
+            margin: 20px auto;
+        }
+
+        /* Personal Section Start */
+        #personal-section{
+
+        }
+        .content{
+            margin-bottom: 30px;
+        }
+        .left-div{
+            width: 30%;
+            float: left;
+        }
+        .right-div{
+            width: 70%;
+            float: left;
+        }
+        .right-div1{
+            width: 40%;
+            float: left;
+        }
+        .right-div2 {
+            width: 30%;
+            float: left;
+        }
+        .right-div3 {
+            width: 30%;
+            float: right;
+        }
+
+        .bottom-container{
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+            
+        }
+        .bottom-container a{
+            text-decoration: none;
+            margin-top: 20px;
+            color: gray;
+            margin: 20px;
+        }
+        .bottom-container p{
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: gray;
+            font-size: small;
+        }
+        .common-hr{
+            border: solid black 1px;
+            border-bottom: none;
+            width: 100%;
+            
+            margin: 20px auto;
+        }
